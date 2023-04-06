@@ -1,24 +1,27 @@
 @import "@radix-ui/colors/gray.css";
-@import "@radix-ui/colors/teal.css";
+@import "@radix-ui/colors/grayDark.css";
+@import "@radix-ui/colors/violet.css";
+@import "@radix-ui/colors/violetDark.css";
 
 :root {
   --container-max-width: 1224px;
   --border-radius: 4px;
 
-  --accentBase: var(--teal1);
-  --accentBgSubtle: var(--teal2);
-  --accentBg: var(--teal3);
-  --accentBgHover: var(--teal4);
-  --accentBgActive: var(--teal5);
-  --accentLine: var(--teal6);
-  --accentBorder: var(--teal7);
-  --accentBorderHover: var(--teal8);
-  --accentSolid: var(--teal9);
-  --accentSolidHover: var(--teal10);
-  --accentText: var(--teal11);
-  --accentTextContrast: var(--teal12);
+  --accentBase: var(--violet1);
+  --accentBgSubtle: var(--violet2);
+  --accentBg: var(--violet3);
+  --accentBgHover: var(--violet4);
+  --accentBgActive: var(--violet5);
+  --accentLine: var(--violet6);
+  --accentBorder: var(--violet7);
+  --accentBorderHover: var(--violet8);
+  --accentSolid: var(--violet9);
+  --accentSolidHover: var(--violet10);
+  --accentText: var(--violet11);
+  --accentTextContrast: var(--violet12);
 }
 
 html {
   color: var(--gray12);
+  background-color: var(--gray1);
 }
