@@ -1,7 +1,7 @@
 .container {
   max-width: var(--container-max-width);
   margin: auto;
-  padding: 0 24px;
+  padding: 0 1.5rem;
 }
 
 .hero {
@@ -20,8 +20,9 @@
 }
 
 .version {
-  background-color: #00000012;
+  background-color: var(--accentBg);
   padding: 1rem 2rem;
   border-radius: 2rem;
-  border: 1px solid #00000017;
+  border: 1px solid var(--accentLine);
+  color: var(--accentText);
 }

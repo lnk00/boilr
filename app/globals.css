@@ -1,4 +1,24 @@
+@import "@radix-ui/colors/gray.css";
+@import "@radix-ui/colors/teal.css";
+
 :root {
   --container-max-width: 1224px;
-  --border-radius: 12px;
+  --border-radius: 4px;
+
+  --accentBase: var(--teal1);
+  --accentBgSubtle: var(--teal2);
+  --accentBg: var(--teal3);
+  --accentBgHover: var(--teal4);
+  --accentBgActive: var(--teal5);
+  --accentLine: var(--teal6);
+  --accentBorder: var(--teal7);
+  --accentBorderHover: var(--teal8);
+  --accentSolid: var(--teal9);
+  --accentSolidHover: var(--teal10);
+  --accentText: var(--teal11);
+  --accentTextContrast: var(--teal12);
+}
+
+html {
+  color: var(--gray12);
 }
